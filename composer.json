@@ -1,0 +1,33 @@
+{
+  "name": "codicastudio/adminexcel",
+  "description": "A random Codica Studio package.",
+  "keywords": [
+      ""
+  ],
+  "homepage": "https://github.com/codicastudio/adminexcel",
+  "license": "MIT",
+  "authors": [
+      {
+          "name": "Michael J Brown",
+          "email": "mbrown@codicastudio.com",
+          "homepage": "https://codicastudio.com",
+          "role": "Developer"
+      }
+  ],
+  "require": {
+    "php": "^7.4 || ^8.0",
+    "maatwebsite/excel": "^3.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Maatwebsite\\LaravelNovaExcel\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Maatwebsite\\LaravelNovaExcel\\LaravelNovaExcelServiceProvider"
+      ]
+    }
+  }
+}
