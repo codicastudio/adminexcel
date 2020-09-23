@@ -1,10 +1,10 @@
 {
-  "name": "codicastudio/adminexcel",
+  "name": "codica-studio/adminexcel",
   "description": "A random Codica Studio package.",
   "keywords": [
       ""
   ],
-  "homepage": "https://github.com/codicastudio/adminexcel",
+  "homepage": "https://github.com/codica-studio/adminexcel",
   "license": "MIT",
   "authors": [
       {
