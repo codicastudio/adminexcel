@@ -1,10 +1,10 @@
 {
-  "name": "codica-studio/adminexcel",
+  "name": "codicastudio/excel-manager",
   "description": "A random Codica Studio package.",
   "keywords": [
       ""
   ],
-  "homepage": "https://github.com/codicastudio/adminexcel",
+  "homepage": "https://github.com/codicastudio/excel-manager",
   "license": "MIT",
   "authors": [
       {
@@ -16,7 +16,7 @@
   ],
   "require": {
     "php": "^7.4 || ^8.0",
-    "maatwebsite/excel": "^3.1"
+    "codicastudio/excel": "^1.0"
   },
   "autoload": {
     "psr-4": {
